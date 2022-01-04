@@ -1,0 +1,60 @@
+html{
+    font-size: 10px;
+    font-family:verdana;
+}
+
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+h1{
+    font-family: 'Grand Hotel', cursive;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: black;
+    margin: 3rem 0;
+}
+
+.photo-grid{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.figure{
+    flex-basis: calc(25%-4rem);
+    border: 1px solid #9e9c9c;
+    padding: 2rem;
+    flex-grow: 1;  
+}
+
+.photo{
+    width: calc(100% + 4rem);
+    margin: -2rem 0rem 0rem -2rem;      
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.button-remove{
+    flex-basis: 36%;
+    color: red;
+    border: 2px solid #f2f2f2;
+    padding: 5px;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.addIcon{
+    margin: 20px auto;
+    display: table;
+    padding: 40px;
+    /* background: url("CameraIcon.png") center no-repeat; */
+    background-size: contain;
+}
